@@ -22,3 +22,6 @@ class Curso(models.Model):
 
     def __str__(self):
         return self.codigo
+    
+class Matricula(models.Model):
+    
